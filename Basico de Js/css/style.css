@@ -1,0 +1,47 @@
+/* Color Theme Swatches in Hex */
+.Color-1 { color: #FF617A; }
+.Color-2 { color: #9154E3; }
+.Color-3 { color: #68BDFA; }
+.Color-4 { color: #54E38A; }
+.Color-5 { color: #E4FB5D; }
+
+/* Color Theme Swatches in RGBA */
+.rgba-1 { background-color: rgba(255, 97, 122, 1); }
+.rgba-2 { background-color: rgba(145, 84, 227, 1); }
+.rgba-3 { background-color: rgba(104, 189, 250, 1); }
+.rgba-4 { background-color: rgba(84, 227, 138, 1); }
+.rgba-5 { background-color: rgba(228, 251, 93, 1); }
+
+.subtitulo{
+    text-align: center;
+    font-weight: 300;
+    color: #68BDFA;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+.contenedor-servicio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contenedor-servicio img{
+    width: 50%;
+}
+.imagen-servicio{
+    width: 40%;
+}
+.service{
+    margin-bottom: 20px;
+}
+.n-service{
+    margin-bottom: 2px;
+    color: #E4FB5D;
+}
+h5{
+    margin-bottom: 2px;
+    color: #54E38A;
+}
+li{
+    align-items: center;
+}
